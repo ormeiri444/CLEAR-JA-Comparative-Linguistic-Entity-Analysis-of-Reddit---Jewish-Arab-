@@ -96,4 +96,4 @@ def analyze_sentiment_trends(csv_path, target_entities):
 # Run the analysis with the specified entities
 target_entities = ['Israel', 'Palestine', 'Hamas', 'USA', 'Iran', 'Trump',
                    'Biden', 'Netanyahu', 'IDF', 'UN', 'UNRWA', 'Hezbollah', 'Nasrallah']
-analyze_sentiment_trends('/Users/ormeiri/Desktop/CLEAR-JA-Comparative-Linguistic-Entity-Analysis-of-Reddit---Jewish-Arab-/data/combined_data_with_synthetic.csv', target_entities)
+analyze_sentiment_trends('/Users/ormeiri/Desktop/CLEAR-JA-Comparative-Linguistic-Entity-Analysis-of-Reddit---Jewish-Arab-/data/combined_data.csv', target_entities)
