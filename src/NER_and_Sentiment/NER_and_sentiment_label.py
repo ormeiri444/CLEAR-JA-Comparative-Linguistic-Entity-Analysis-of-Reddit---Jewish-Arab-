@@ -8,9 +8,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from huggingface_hub import login
 
-# Login to Hugging Face (if needed)
-login(token="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")
-
 # Load SpaCy model for NER
 nlp = spacy.load("en_core_web_trf")
 
